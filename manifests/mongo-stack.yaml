@@ -21,7 +21,7 @@ spec:
       volumes:
         - name: mongo-persistent-storage
           hostPath:
-            path: /tmp/data/db
+            path: /tmp
             type: DirectoryOrCreate
 ---
 apiVersion: v1
