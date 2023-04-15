@@ -21,7 +21,7 @@ spec:
       volumes:
         - name: mongo-persistent-storage
           persistentVolumeClaim:
-            claimName: mongo-pvc
+            claimName: cloud-ssd 
 ---
 apiVersion: v1
 kind: Service
