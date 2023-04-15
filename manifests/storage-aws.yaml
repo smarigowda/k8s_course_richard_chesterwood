@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: cloud-ssd
 spec:
-  storageClassName: mylocalstorage
+  storageClassName: cloud-ssd 
   accessModes:
     - ReadWriteOnce
   resources:
